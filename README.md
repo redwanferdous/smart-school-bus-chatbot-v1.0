@@ -1,4 +1,4 @@
-# smart-school-bus-chatbot-v1.0
+# smart-school-bus-chatbot-v1.0 (16-September-2025)
 Chatbot for supporting Smart School Bus system, Chattogram (https://smartschoolbus.gov.bd)
 
 This project is designed to run entirely on **Google Colab**, making it easy to use without any local setup.  
@@ -20,17 +20,17 @@ Unlike standard chatbots that only rely on their pre-trained knowledge, this RAG
 
 **Tech Stack**
 
--Python → Core logic & processing.
--Sentence-Transformers + NumPy → Vector embeddings & similarity search.
--OpenAI API (GPT-4) → Answer generation.
--Streamlit → User-friendly interface.
--pypdf → Extracting text from PDF.
+1. Python → Core logic & processing.
+2. Sentence-Transformers + NumPy → Vector embeddings & similarity search.
+3. OpenAI API (GPT-4) → Answer generation.
+4. Streamlit → User-friendly interface.
+5. pypdf → Extracting text from PDF.
 
 **Key Features**
 
--Upload a PDF (e.g., project documentation or manuals).
--Ask natural language questions.
--Get precise answers based on context from the PDF.
+1. Upload a PDF (e.g., project documentation or manuals).
+2. Ask natural language questions.
+3. Get precise answers based on context from the PDF.
 
 **Challenges**
 
@@ -39,9 +39,9 @@ During development, one challenge was that similarity scores often came low (0.6
 **Future Plan**
 
 The next step is to integrate this chatbot directly into the Smart School Bus live system so that:
--Parents can ask questions like “Where is my child’s bus now?” 📍
--Get real-time updates about departure and arrival.
--Build a more human-centric experience for guardians 👨‍👩‍👧‍👦.
+1. Parents can ask questions like “Where is my child’s bus now?” 📍
+2. Get real-time updates about departure and arrival.
+3. Build a more human-centric experience for guardians 👨‍👩‍👧‍👦.
 
 ---
 
