@@ -5,7 +5,43 @@ This project is designed to run entirely on **Google Colab**, making it easy to 
 It provides step-by-step execution of code blocks, ensuring that even beginners can follow along and reproduce the results.  
 
 You can explore, modify, and run the code in your own Colab environment without needing to install additional software.  
-The main goal of this repository is to provide a simple, reproducible workflow for your project.  
+The main goal of this repository is to provide a simple, reproducible workflow for your project. 
+
+---
+## Extended Description
+
+This project is a **RAG (Retrieval-Augmented Generation)** powered chatbot built for FronTech’s Smart School Bus Solution 🚍🤖.
+
+Unlike standard chatbots that only rely on their pre-trained knowledge, this RAG chatbot combines vector embeddings + GPT to:
+
+-Retrieve relevant information from a given PDF document.
+-Generate accurate, context-aware answers.
+-Provide evidence-based responses instead of relying only on memory.
+
+**Tech Stack**
+
+-Python → Core logic & processing.
+-Sentence-Transformers + NumPy → Vector embeddings & similarity search.
+-OpenAI API (GPT-4) → Answer generation.
+-Streamlit → User-friendly interface.
+-pypdf → Extracting text from PDF.
+
+**Key Features**
+
+-Upload a PDF (e.g., project documentation or manuals).
+-Ask natural language questions.
+-Get precise answers based on context from the PDF.
+
+**Challenges**
+
+During development, one challenge was that similarity scores often came low (0.65 or ~0.6) 😅, but the model still successfully extracted correct information.
+
+**Future Plan**
+
+The next step is to integrate this chatbot directly into the Smart School Bus live system so that:
+-Parents can ask questions like “Where is my child’s bus now?” 📍
+-Get real-time updates about departure and arrival.
+-Build a more human-centric experience for guardians 👨‍👩‍👧‍👦.
 
 ---
 
