@@ -14,9 +14,9 @@ This project is a **RAG (Retrieval-Augmented Generation)** powered chatbot built
 
 Unlike standard chatbots that only rely on their pre-trained knowledge, this RAG chatbot combines vector embeddings + GPT to:
 
--Retrieve relevant information from a given PDF document.
--Generate accurate, context-aware answers.
--Provide evidence-based responses instead of relying only on memory.
+1. Retrieve relevant information from a given PDF document.
+2. Generate accurate, context-aware answers.
+3. Provide evidence-based responses instead of relying only on memory.
 
 **Tech Stack**
 
